@@ -1,7 +1,23 @@
-// import React from 'react'
+import React from 'react'
 
-// const AboutMe = (props) => {
-    
-// }
+import { makeStyles } from '@material-ui/core/styles'
 
-// export default AboutMe
+const useStyles = makeStyles({
+    heading: {
+        fontSize: "60px",
+        padding: "2rem 5rem",
+        color: "#45A29E"
+    }
+})
+
+const AboutMe = (props) => {
+    const classes = useStyles()
+    return (
+        <div>
+            <h1 className={classes.heading}>Who am I?</h1>
+            <p>I am a student studying Computer Science at Southern Adventist University.</p>
+        </div>
+    )
+}
+
+export default AboutMe
