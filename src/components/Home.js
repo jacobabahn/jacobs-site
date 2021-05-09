@@ -17,8 +17,11 @@ const useStyles = makeStyles({
         fontSize: "1.5rem",
         textAlign: "left",
         marginLeft: "2rem",
-        marginTop: "15rem",
+        // marginTop: "15rem",
         height: "90vh",
+        display: "flex",
+        flexWrap: "nowrap",
+        alignItems: "center",
     },
     computer: {
         height: "100%",
@@ -30,6 +33,10 @@ const useStyles = makeStyles({
             transition: "all 1s ease-in-out 0s",
         }
     },
+    lottie: {
+        height: "max-content",
+        marginBottom: "auto"
+    }
 })
 
 const Home = () => {
@@ -49,7 +56,7 @@ const Home = () => {
                 An aspiring <span className={classes.specialText}>Software Engineer</span>
             </h1>
             <Lottie
-                className={classes.computer}
+                className={classes.lottie}
                 options={defaultOptions}
                 height={500}
                 width={500}
