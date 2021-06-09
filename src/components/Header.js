@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme)=> ({
         justifyContent: "center",
         alignItems: "center",
         margin: "0 auto",
-        boxShadow: "",
     },
     tabs: {
         textTransform: "none",
@@ -44,7 +43,7 @@ const Header = (props) => {
                     <Tabs >
                         <Tab className={classes.tabs} label="Home">Home</Tab>
                         <Tab className={classes.tabs} label="About Me">About Me</Tab>
-                        <Tab className={classes.tabs} label="Contact Me">Contact Me</Tab>
+                        <Tab className={classes.tabs} label="Projects?">Projects?</Tab>
                     </Tabs>
                 </Toolbar>
             </AppBar>

@@ -1,0 +1,25 @@
+.page {
+    height: 94vh;
+    text-align: center;
+    display: block;
+}
+.heading {
+    font-size: calc(40px + 1vw);
+    padding: 2rem 5rem;
+    color: #66FCF1;
+}
+.ptext {
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    margin: 0 auto;
+    float: right;
+    width: 50%;
+    margin-right: 10rem;
+}
+.me {
+    height: 55vh;
+    width: 20vw;
+    float: left;
+    margin-left: 15rem;
+}

@@ -1,0 +1,27 @@
+.text {
+    color: white;
+    font-size: calc(30px + 1vw);
+}
+.specialText {
+    color: #66FCF1;
+}
+.begText {
+    text-align: left;
+    margin-left: 7rem;
+    /* marginTop: 15rem; */
+    height: 92.5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.computer {
+    height: 100%;
+    position: absolute;
+    right: 15%;
+    top: 15rem;
+}
+.lottie {
+    height: max-content;
+    margin-bottom: auto;
+
+}
