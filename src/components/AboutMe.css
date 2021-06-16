@@ -19,7 +19,7 @@
 }
 .me {
     height: 55vh;
-    width: 20vw;
+    width: calc(height * .3636);
     float: left;
     margin-left: 15rem;
 }

@@ -8,10 +8,8 @@ import AboutMe from './components/AboutMe'
 function App() {
   return (
     <div className="App" >
-      <Header />
+      {/* <Header /> */}
       <Home />
-      <hr/>
-      <hr/>
       <AboutMe />
     </div>
   );
