@@ -6,7 +6,7 @@ import me from '../me.jpg'
 
 const AboutMe = (props) => {
     return (
-        <div className="page">
+        <div className="page" id="about">
             <Fade left>
                 <h1 className="heading">Who am I?</h1>
                 <div className="content">
