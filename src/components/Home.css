@@ -17,7 +17,7 @@
     font-family: monospace;
     font-size: calc(30px + 2.75vw);;
     width: 15ch;
-    animation: type 2s steps(15), blink .5s step-end infinite alternate;
+    animation: type 1.5s steps(15), blink .5s step-end infinite alternate;
     margin-top: -10%;
     margin-bottom: 7%;
     text-align: center;
@@ -26,16 +26,18 @@
     margin-top: 0%;
     color: #1f2833;
     text-align: center;
-    font-size: calc(15px + 1vw);;
-    animation: show 3s;
-    animation-delay: 2.5s;
+    font-size: calc(15px + 1vw);
+    animation: show 1.5s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 .down {
     height: 10vh;
-    width: 6vw;
+    width: auto;
     position: absolute;
     margin-top: 40%;
+    animation: delayed 0s 3s forwards;
+    visibility: hidden;
 }
 @keyframes type {
     0% {
@@ -55,4 +57,7 @@
         opacity: 1;
         color: white;
     }
+}
+@keyframes delayed {
+    to { visibility: visible;}
 }
