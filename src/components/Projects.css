@@ -1,0 +1,32 @@
+.page {
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.heading {
+    font-size: calc(40px + 1vw);
+    padding: 2rem 5rem;
+    color: #66FCF1;
+}
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 20%;
+    height: auto;
+    /* background-color: #1f2833; */
+    border: 1px solid #10151b;
+    background-color: #10151b !important;
+    margin: 2rem;
+    margin-top: 0;
+}
+.cardContent {
+    background-color: #10151b;
+    color: white;
+}
+.cardImg {
+    height: 160px;
+    width: auto;
+}

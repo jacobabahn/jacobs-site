@@ -4,6 +4,7 @@ import './App.css'
 
 import Home from './components/Home'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
     <div className="App" >
       {/* <Header /> */}
     	<Home />
-    	<hr/>
-		<AboutMe />
+    	{/* <hr/> */}
+		  <AboutMe />
+      <Projects />
     </div>
   );
 }
