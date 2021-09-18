@@ -1,7 +1,10 @@
-.page {
+.projPage {
     height: max-content;
     text-align: center;
-    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.container {
+    height: 100vh;
 }
 .heading {
     font-size: calc(40px + 1vw);

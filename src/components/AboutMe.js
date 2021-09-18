@@ -26,7 +26,7 @@ const AboutMe = (props) => {
                     </p>
                 </Card>
             </Fade>
-            <Link to="projects" smooth={true} duration={1000}>
+            <Link to="proj" smooth={true} duration={1000}>
                     <img className="down" src={down} alt="downArrow"/>
             </Link>
         </div>
