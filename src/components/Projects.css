@@ -25,6 +25,7 @@
     background-color: #10151b !important;
     margin: 2rem;
     margin-top: 0;
+    transition: all 0.25s ease-in-out !important;
 }
 .cardContent {
     background-color: #10151b;
@@ -33,4 +34,8 @@
 .cardImg {
     height: 160px;
     width: auto;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }

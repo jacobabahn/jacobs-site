@@ -3,7 +3,7 @@ import React from 'react'
 import "./Projects.css"
 import CardProj from './CardProj';
 import prsim from '../LRUExample.png'
-import me from '../me.jpg'
+import constraint from '../Constraint.png'
 
 
 const Projects = () => {
@@ -21,9 +21,10 @@ const Projects = () => {
                     />
                     <CardProj
                         className="card"
-                        title="Random Song Generator"
-                        description="Generates a song after an artist is inputted, then gives the option to play the song. Developed with Python"
-                        // img={me}
+                        title="Constraints Spreadsheet"
+                        description="A simple spreadsheet that allows for excel-like mathematical calculations to test constraints between cells."
+                        img={constraint}
+                        href={"https://constraint.jacobbahn.com"}
                     />
                 </div>
             </div>

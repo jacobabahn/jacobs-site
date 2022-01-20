@@ -19,9 +19,9 @@ const AboutMe = (props) => {
                 <Card className="content" elevation={11}>
                     <img className="me" src={me} />
                     <p className="ptext">
-                        I am a student studying Computer Science. 
+                        I am a Masters student studying Computer Science. 
                         My hobbies include working out, basketball, football, cars, and of course, technology.
-                        Some development technologies I've worked with are Python, JavaScript, C++, and React. <br/> <br/>
+                        Some development languages I've worked with are Python, JavaScript(React), TypeScript, and C++. <br/> <br/>
                         Feel free to contact me at jacobabahn@southern.edu!
                     </p>
                 </Card>
