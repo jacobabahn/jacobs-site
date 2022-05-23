@@ -42,6 +42,7 @@
     animation-delay: 2.5s;
     transition: all .25s ease-in-out; 
     opacity: 0;
+    margin-bottom: -100%;
 }
 .down:hover {
     transform: scale(1.2);
