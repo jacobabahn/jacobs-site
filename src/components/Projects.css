@@ -17,6 +17,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.img {
+    width: 45vw;
+    height: auto;
+}
 .card {
     width: 20em;
     height: auto;

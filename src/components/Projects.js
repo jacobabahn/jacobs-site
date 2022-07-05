@@ -7,29 +7,41 @@ import constraint from '../Constraint.png'
 
 
 const Projects = () => {
+//     return (
+//         <div className="projPage" id="proj">
+//             <div className="container">
+//                 <h1 className="heading">Projects</h1>
+//                 <div>
+//                     <img src={prsim} className="img"/>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
     return(
-        <div className="projPage" id="proj">
-            <div className="container">
-                <h1 className="heading">Projects</h1>
-                <div id="projects">
-                    <CardProj
-                        className="card" 
-                        title="Page Replacement Sim"
-                        description="A simulation of Paging's page replacement process using the methods FIFO, LIFO, and LRU"
-                        img={prsim}
-                        href={"http://jacobabahn.github.io/PageReplacementSimulator"}
-                    />
-                    <CardProj
-                        className="card"
-                        title="Constraints Spreadsheet"
-                        description="A simple spreadsheet that allows for excel-like mathematical calculations to test constraints between cells."
-                        img={constraint}
-                        href={"https://constraint.jacobbahn.com"}
-                    />
-                </div>
-            </div>
-        </div>
-    )
+         <div className="projPage" id="proj">
+             <div className="container">
+                 <h1 className="heading">Projects</h1>
+                 <div id="projects">
+                     <CardProj
+                         className="card" 
+                         title="Page Replacement Sim"
+                         description="A simulation of Paging's page replacement process using the methods FIFO, LIFO, and LRU"
+                         img={prsim}
+                         href={"http://jacobabahn.github.io/PageReplacementSimulator"}
+                     />
+                     <CardProj
+                         className="card"
+                         title="Constraints Spreadsheet"
+                         description="A simple spreadsheet that allows for excel-like mathematical calculations to test constraints between cells."
+                         img={constraint}
+                         href={"https://constraint.jacobbahn.com"}
+                     />
+                 </div>
+             </div>
+         </div>
+     )
 }
+
 
 export default Projects

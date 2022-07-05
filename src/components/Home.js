@@ -24,13 +24,13 @@ const Home = () => {
 
     return (
         <div className="begText">
-            {/* <h1 className="text slight-slide-from-left">Hello, I'm <span className="specialText">Jacob</span> <br></br>
-                An aspiring <span className="specialText">Software Engineer</span>
-            </h1> */}
             <div className="wrapper">
-                <h1 className="animation">Hey, I'm Jacob!</h1>
-                <h3 className="extra">aspiring Software Engineer</h3>
-                <Link to="about" smooth={true} duration={1000}>
+                <div id="homeCont">
+                    <h1 className="animation">Hey, I'm <span>Jacob Bahn</span></h1>
+                    <div className="homeCard"></div>
+                    <h3 className="extra">aspiring <span>Software Engineer</span></h3>
+                </div>
+                    <Link to="about" smooth={true} duration={1000}>
                     <img className="down" src={down} alt="downArrow"/>
                 </Link>
             </div>
